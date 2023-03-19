@@ -5,7 +5,7 @@ import styleClasses from "./MainNavigation.module.css";
 function MainNavigation() {
   return (
     <header className={styleClasses.header}>
-      <div className={styleClasses.logo}>React Meetups</div>
+      <div className={styleClasses.logo}>Meetups</div>
       <nav>
         <ul>
           <li>

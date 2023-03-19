@@ -3,7 +3,7 @@ import MeetupItem from "./MeetupItem";
 
 function MeetupList(props) {
   return (
-    <ul>
+    <ul className={classes.list}>
       {props.meetups.map((meetup) => (
         <MeetupItem
           key={meetup.id}
